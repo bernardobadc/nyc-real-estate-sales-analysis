@@ -5,14 +5,11 @@ import dash_bootstrap_components as dbc
 from app import app
 
 
-
-
 app.layout = dbc.Container(
-        children=[
+    children=[
 
-        ], fluid=True, )
-
+    ], fluid=True, )
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8051)
